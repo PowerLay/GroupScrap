@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "X1vEXyPCM8vxGyCHopvJXnR57MO8qWglDOQowKp/UsoYgggS6grP1haSpRDd/IPJlcczNw53QuaBijdCes/vPQ==",
+  "dgSpecHash": "kAM6VhxpfCxm1h9ulyUvIvsUs5+y3kYhXdkXZApEG9962bmgsT2pt1GpIWvVDFtJk+FPxlPh6Vq2xtkEqiT02A==",
   "success": true,
-  "projectFilePath": "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj",
+  "projectFilePath": "S:\\source\\repos\\GroupScrap\\GroupScrap.fsproj",
   "expectedPackageFiles": [
-    "/home/powerlay/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
-    "/home/powerlay/.nuget/packages/microsoft.netcore.app.host.win-x64/5.0.11/microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+    "C:\\Users\\1854p\\.nuget\\packages\\fsharp.core\\6.0.0\\fsharp.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\1854p\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
   ],
   "logs": []
 }

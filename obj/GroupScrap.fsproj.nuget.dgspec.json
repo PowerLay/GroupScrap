@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj": {}
+    "S:\\source\\repos\\GroupScrap\\GroupScrap.fsproj": {}
   },
   "projects": {
-    "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj": {
+    "S:\\source\\repos\\GroupScrap\\GroupScrap.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj",
+        "projectUniqueName": "S:\\source\\repos\\GroupScrap\\GroupScrap.fsproj",
         "projectName": "GroupScrap",
-        "projectPath": "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj",
-        "packagesPath": "/home/powerlay/.nuget/packages/",
-        "outputPath": "/home/powerlay/Repo/GroupScrap/obj/",
+        "projectPath": "S:\\source\\repos\\GroupScrap\\GroupScrap.fsproj",
+        "packagesPath": "C:\\Users\\1854p\\.nuget\\packages\\",
+        "outputPath": "S:\\source\\repos\\GroupScrap\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/powerlay/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\1854p\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -36,7 +43,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[6.0.0-beta.*, )",
               "generatePathProperty": true
             }
           },
@@ -53,7 +60,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.11, 5.0.11]"
+              "version": "[5.0.9, 5.0.9]"
             }
           ],
           "frameworkReferences": {
@@ -61,12 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
         }
       }
     }

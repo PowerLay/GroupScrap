@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/powerlay/.dotnet/store/|arch|/|tfm|",
-      "/home/powerlay/.nuget/packages"
+      "C:\\Users\\1854p\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\1854p\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }

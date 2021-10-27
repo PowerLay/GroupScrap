@@ -4,33 +4,29 @@ open System.IO
 let main argv =
     let url = argv.[0]
     let dir = Directory.GetCurrentDirectory()
+    printfn "%s" dir
 
-    System
-        .Diagnostics
-        .Process
-        .Start($"{dir}/GetWeb.exe", url)
-        .WaitForExit()
+    let getWeb =
+        System.Diagnostics.Process.Start($"{dir}/GetWeb.exe", url)
 
     let generalList = $"{dir}/generalList.txt"
 
     if File.Exists(generalList) then
         File.Delete(generalList)
 
-    System
-        .Diagnostics
-        .Process
-        .Start($"{dir}/Parse.exe", "generalList.txt")
-        .WaitForExit()
+    getWeb.WaitForExit()
 
-    let engineDir = $"{dir}/comparison_engine"
+    if getWeb.ExitCode <> 0 then
+        failwith $"Exception {getWeb.ExitCode}"
 
-    System
-        .Diagnostics
-        .Process
-        .Start(
-            $"{dir}/comparison_engine/comparison_engine.exe",
-            $"{engineDir}/groupeList {generalList} {dir}/outputList"
-        )
-        .WaitForExit()
+    let parse =
+        System.Diagnostics.Process.Start($"{dir}/Parse.exe", $"{dir}/ans.html")
+
+    parse.WaitForExit()
+
+    let comparison_engine =
+        System.Diagnostics.Process.Start($"{dir}/comparison_engine.exe")
+
+    comparison_engine.WaitForExit()
 
     0
