@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "X1vEXyPCM8vxGyCHopvJXnR57MO8qWglDOQowKp/UsoYgggS6grP1haSpRDd/IPJlcczNw53QuaBijdCes/vPQ==",
+  "success": true,
+  "projectFilePath": "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj",
+  "expectedPackageFiles": [
+    "/home/powerlay/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/home/powerlay/.nuget/packages/microsoft.netcore.app.host.win-x64/5.0.11/microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

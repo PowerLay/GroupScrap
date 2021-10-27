@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj": {}
+  },
+  "projects": {
+    "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj",
+        "projectName": "GroupScrap",
+        "projectPath": "/home/powerlay/Repo/GroupScrap/GroupScrap.fsproj",
+        "packagesPath": "/home/powerlay/.nuget/packages/",
+        "outputPath": "/home/powerlay/Repo/GroupScrap/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/powerlay/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.11, 5.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

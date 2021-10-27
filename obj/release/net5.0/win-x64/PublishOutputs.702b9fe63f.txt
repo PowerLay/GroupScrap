@@ -1,0 +1,2 @@
+/home/powerlay/Repo/GroupScrap/bin/release/net5.0/win-x64/publish/GroupScrap.pdb
+/home/powerlay/Repo/GroupScrap/bin/release/net5.0/win-x64/publish/GroupScrap.exe
